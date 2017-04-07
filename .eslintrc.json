@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
+    "plugins": [
+        "flowtype"
+    ],
+    "rules": {
+        //  "semi": [2, "never"],
+        "no-unexpected-multiline": 2,
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "react/jsx-indent": ["error", 4],
+        "no-console": 0
+    },
+    "env": {
+        "jest": true,
+        "browser": true
+    },
+    "settings": {
+        "polyfills": ["fetch"]
+    }
+}
